@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -28,11 +30,14 @@ public class Main {
         Assignment - = += -= *= /= %=
         Comparison - == != < > <= >=
         Logical - &&(and) ||(or) !(not)
-        
-
-
-
          */
         System.out.println(45 % 78);
+        // Taking input from user in java.
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a number : ");
+        String input = scan.nextLine();
+        System.out.println(input);
+        
+        // Conditional Statements in Java.
     }
 }

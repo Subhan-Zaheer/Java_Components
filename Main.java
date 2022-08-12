@@ -27,6 +27,8 @@ public class Main {
         Arithematic - Common Mathematical operations. + - * / % ++ --
         Assignment - = += -= *= /= %=
         Comparison - == != < > <= >=
+        Logical - &&(and) ||(or) !(not)
+        
 
 
 

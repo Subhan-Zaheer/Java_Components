@@ -15,5 +15,22 @@ public class Main {
         System.out.println(name);
         System.out.println(b);
         System.out.println(isMan);
+        /*
+         Primitive Data types : byte (1 byte), char (2 byte), int (4 byte), float (4 byte), long (8 byte), double (8 byte)
+         Non-Primitive Data types : Objects of classes that user create by himself.
+         */
+
+        // Operators in Java:
+        // Operand - Operator - Operation
+        /*
+        Types of Operators in Java :
+        Arithematic - Common Mathematical operations. + - * / % ++ --
+        Assignment - = += -= *= /= %=
+        Comparison - == != < > <= >=
+
+
+
+         */
+        System.out.println(45 % 78);
     }
 }

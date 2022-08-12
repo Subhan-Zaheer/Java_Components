@@ -37,7 +37,10 @@ public class Main {
         System.out.println("Enter a number : ");
         String input = scan.nextLine();
         System.out.println(input);
-        
+        // Sting Methods
+        // You can access all methods of String using '.' operator.
+        String str = "Subhan";
+        System.out.println(str.intern());
         // Conditional Statements in Java.
     }
 }

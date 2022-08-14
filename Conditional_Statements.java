@@ -40,6 +40,18 @@ public class Conditional_Statements {
                 System.out.println("You didn't match any case.");
                 break;
         }
+
+        // Loops in Java are same as C++.
+        //Three types of loop are there:
+        /*
+        1. while loop
+        2. do-while loop
+        3. for loop
+
+
+        
+         */
+
     }
 
 }

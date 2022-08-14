@@ -57,32 +57,43 @@ public class Conditional_Statements {
          */
         int [] arr = {1,2,3,4,5};
         // If you want to set size of array according to your self, then you can do it with 'new' keyword.
-        int arr1[] = new int[10];
-        int size = scan.nextInt();
-        System.out.println("Enter a size of array : ");
-        int arr2[] = new int[size];
-        for(int i =0 ;i < size; i++){
-            System.out.println("Now enter value for arr1 : ");
-            arr1[i] = scan.nextInt();
-            System.out.println("Now enter value for arr2 : ");
-            arr2[i] = scan.nextInt();
-        }
-        System.out.println("Values in Arr1 : ");
-        for(int ele:arr1){
-            System.out.print(ele + " ");
-        }
-        System.out.println("\nValues in Arr2 : ");
-        for(int ele:arr2){
-            System.out.print(ele + " ");
-        }
-
-        // Expressing For each loop.
-        for(int val:arr){
-            System.out.println(val);
-        }
+//        int arr1[] = new int[10];
+//        int size = scan.nextInt();
+//        System.out.println("Enter a size of array : ");
+//        int arr2[] = new int[size];
+//        for(int i =0 ;i < size; i++){
+//            System.out.println("Now enter value for arr1 : ");
+//            arr1[i] = scan.nextInt();
+//            System.out.println("Now enter value for arr2 : ");
+//            arr2[i] = scan.nextInt();
+//        }
+//        System.out.println("Values in Arr1 : ");
+//        for(int ele:arr1){
+//            System.out.print(ele + " ");
+//        }
+//        System.out.println("\nValues in Arr2 : ");
+//        for(int ele:arr2){
+//            System.out.print(ele + " ");
+//        }
+//
+//        // Expressing For each loop.
+//        for(int val:arr){
+//            System.out.println(val);
+//        }
         /*
         Similarly, we can work with Multi dimensional array.
          */
+
+        // Exception Handling in Java using Try-Catch.
+
+        try{
+            System.out.println(arr[12]);
+        }
+        catch (Exception e){
+            System.out.println("Some error occurred and the Error is : ");
+            System.out.println("\"" + e + "\"");
+        }
+        System.out.println("Program Ended.");
     }
 
 }

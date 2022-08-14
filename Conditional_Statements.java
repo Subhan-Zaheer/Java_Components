@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Conditional_Statements {
+
+    static int sq(int a){
+        return a*a;
+    }
     public static void main(String[] args) {
         // Conditional Statements
         Scanner scan = new Scanner(System.in);
@@ -94,6 +98,10 @@ public class Conditional_Statements {
             System.out.println("\"" + e + "\"");
         }
         System.out.println("Program Ended.");
+
+        System.out.print("Enter a number of which you want to calculate square : ");
+        int num = scan.nextInt();
+        System.out.println("Square of " + num + " is : " + sq(num));
     }
 
 }

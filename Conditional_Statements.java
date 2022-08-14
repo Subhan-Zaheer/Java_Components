@@ -49,7 +49,7 @@ public class Conditional_Statements {
         3. for loop
 
 
-        
+        Moreover, "break" and "continue" in Java are same as C++.
          */
 
     }
